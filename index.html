@@ -4,35 +4,47 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css" />
   <title>My Personal Website</title>
 </head>
 <body>
-  <header>
+  <header class="header">
     <a href="#">LOGO</a>
 
-    <nav>
-      <ul>
-        <li>About</li>
-        <li>Experience</li>
-        <li>Work</li>
-        <li>Contact</li>
-        <li>Resume</li>
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li><a class="main-nav-link" href="#">About</a></li>
+        <li><a class="main-nav-link" href="#">Experience</a></li>
+        <li><a class="main-nav-link" href="#">Work</a></li>
+        <li><a class="main-nav-link" href="#">Contact</a></li>
+        <li><a class="main-nav-link nav-cta" href="#">Resume</a></li>
       </ul>
     </nav>
   </header>
-    <h3>Hi, my name is</h3>
-    <h1>Rachel Humes</h1>
-    <h2>I am new to software engineering.</h2>
-    <p>I am an aspiring software engineer 
-      and I am so excited to start my bootcamp with Flatirons. 
-      This is my first website that I have created with HTML, CSS and Javascript.</p>
-      <a href="#">Check out my stuff!</a>
   <main>
-    <section>
-
+    <section class="section-hero">
+     <div class="hero"> 
+        <h3 class="heading-tertiary">Hi, my name is</h3>
+        <h1 class="heading-primary">Rachel Humes.</h1>
+        <h2 class="heading-secondary">Aspiring software engineer.</h2>
+        <p  class="hero-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Enim dolore quae exercitationem expedita ex, omnis amet tempora perferendis maxime explicabo nisi. 
+          Atque iure voluptas nam optio adipisci distinctio rerum corporis.</p>
+        <a class="btn btn--outline" href="#">Check out my stuff!</a>
+      </div>
     </section>
   </main>
+
   
   </body>
 </html>
