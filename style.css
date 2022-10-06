@@ -1,3 +1,120 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
 body {
-  background-color: blue;
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #e6fcf5;
+  background-color: #02573d;
+}
+
+.heading-primary {
+  font-size: 3.8rem;
+  line-height: 1.05;
+  margin-bottom: 1.6rem;
+  color: #c3fae8;
+}
+
+.heading-secondary {
+  font-size: 3.8rem;
+  line-height: 1.1;
+  margin-bottom: 1.6rem;
+  color: #63e6be;
+}
+
+.heading-tertiary {
+  font-size: 1rem;
+  line-height: 1.2;
+  margin-bottom: 1.6rem;
+  color: #b2f2bb;
+  font-family: "Noto Sans Mono";
+  font-weight: 400;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 1.6rem;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Noto Sans Mono";
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  box-shadow: inset 0 0 0 1.5px #b2f2bb;
+  color: #b2f2bb;
+}
+
+/* NAVIGATION */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  height: 9.6rem;
+  padding: 0 4.8rem;
+
+}
+
+ .main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  
+ }
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #e6fcf5;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "Noto Sans Mono";
+  font-weight: 400;
+ 
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  box-shadow: inset 0 0 0 1.5px #b2f2bb;
+  color: #b2f2bb;
+  
+  padding: 1rem 2rem;
+  border-radius: 5px;
+}
+
+/* HERO SECTION */
+
+.section-hero {
+  
+  padding: 2.4rem 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 12.8rem;
+ 
+}
+
+.hero-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+  
 }
