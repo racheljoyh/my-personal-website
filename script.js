@@ -1,4 +1,22 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+// HOVER OVER RESUME BUTTOM IN NAV //
 
-document.querySelector("body").appendChild(h2);
+const mouseTarget = document.getElementById('mouse-event')
+
+function mouseStyleHover()
+{
+  mouseTarget.style.backgroundColor = '#b2f2bb';
+  mouseTarget.style.color = '#02573d';
+    
+};
+
+function mouseStyleUnHover()
+{
+  mouseTarget.style.backgroundColor = '#02573d';
+  mouseTarget.style.color = '#b2f2bb';
+    
+};
+
+
+mouseTarget.addEventListener("mouseenter", mouseStyleHover);
+
+mouseTarget.addEventListener("mouseleave", mouseStyleUnHover);
